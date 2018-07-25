@@ -2,12 +2,16 @@ let firstName = "Bob";
 let lastName = "Ross"
 
 // combine first name and last name into one variable
-let fullName;
+let fullName = `${firstName.toUpperCase()} ${lastName}`
 
-let exclain = ""
-let adverb = ""
-let noun = ""
-let adjective = ""
+fullName //?
 
-let madlib = `${} he said ${} as he jumped into his convertible ${} and drove off with his ${} wife.`;
+let exclaim = "HOORA"
+let adverb = "angrily"
+let noun = "car"
+let adjective = "bootiful"
+
+let madlib = exclaim + " he said " + adverb +  "as he jumped into his convertible " + noun + " and drove off with his" + adjective + " wife.";
+
+madlib //?
 

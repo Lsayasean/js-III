@@ -1,6 +1,15 @@
 let filterArray = [1, 2, 3, 4, 5, 6]
 // ===>>> Using the filter array method and the filterArray array above, create a new array with only even values.
 
+
+function getMeEvens(number) {
+  return number % 2 === 0
+}
+
+var onlyEvens = filterArray.filter(getMeEvens)
+
+onlyEvens
+
 // -------------------------------------------------
 
 let athletes = [
@@ -31,4 +40,8 @@ let athletes = [
         wits: 8
     }
 ]
+
+var smartAthletes = athletes.filter(athlete => athlete.wits >= 5)
+
+smartAthletes
 // ===>>> Using the filter array method and the array above, filter out all athletes with wits 5 or higher.

@@ -1,37 +1,29 @@
-function lotsOfParameters(one, two, three) {
-  if(one > 1) {
-    return one + two
-  } else {
-    return two + three
-  }
-}
+var lotsOfParameters = (one, two, three) => one > 1 ? one + two : two + three
+
+console.log(lotsOfParameters(1,2,3))
 
 // -------------------------------------------------
 
-function oneParameter(string) {
+var oneParameter = string => {
   let newString = string.slice(3)
   return string + string.slice(3)
 }
 
+console.log(oneParameter('bob ross'))
+
 // -------------------------------------------------
 
-function noParameters() {
+var noParameters = () => {
   let num = 1 + 2 + 3
   return num + num
 }
 
 // -------------------------------------------------
 
-function oneLine() {
-  return 'hello!'
-}
+var oneLine = () => 'hello!'
 
 // -------------------------------------------------
 
-function oneLineWithParameter(str) {
-  if(str === 'Hello') {
-    return 'Why thank you!'
-  } else {
-    return 'Rude... '
-  }
-}
+var oneLineWithParameter = str => str === 'Hello' ? 'Why thank you!' : 'Rude... '
+
+console.log(oneLineWithParameter('no'))

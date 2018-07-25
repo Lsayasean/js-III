@@ -2,6 +2,8 @@
 
 ## Template Strings
 
+- teach this
+
 ## Arrow functions
 
 - start by making a named function.
@@ -57,7 +59,7 @@ arrow functions 1.1 - 1.5, 1.7
 
 ### Reduce
 
-- signature reduce(function, staringValue) -> anyType
+- signature reduce(function, startingValue) -> anyType
 - inner function(accumulator, item, index, array) -> anytype
 - sum the array
 - add the words
@@ -83,7 +85,9 @@ arrow functions 1.1 - 1.5, 1.7
 - for in loops
 - for in and delete and falsey
 
-#### ForInLoops mini Project 1.1 - 1.4
+#### ForInLoops mini Project
+
+- 1.1 - 1.4
 
 ### Copying Objects
 
@@ -111,8 +115,9 @@ arrow functions 1.1 - 1.5, 1.7
 
 - Slides
 - talk about what a class is and what it makes
-- talk about the protoype and why its so cool
+- talk about the prototype and why its so cool
 - methods on a class automatically get added to the
 
 #### Mini Project Questions
-1.1, 1.2, 1.3, 1.4
+
+- 1.1, 1.2, 1.3, 1.4
