@@ -1,11 +1,7 @@
 // ===>>> What will be the result of the code below when you uncomment it?
 let arr = [1, 2, 3]
-let arrCopy = [...arr]
+let arrCopy = arr 
 // arr === arrCopy
-
-arrCopy[0] = 1000
-
-arr
 
 // -------------------------------------------------
 
@@ -15,12 +11,8 @@ arr
 
 // ===>>> What will be the result of the code below when you uncomment it?
 let obj = {one: 1, two: 2, three: 3}
-let objCopy = Object.assign({}, obj)
+let objCopy = obj 
 // obj === objCopy
-
-objCopy.one = 1000
-
-obj
 
 // -------------------------------------------------
 
@@ -71,29 +63,12 @@ let user3 = {
   age: 23
 }
 
-let superUser = Object.assign({}, user1, user2, user3, {age: 24})
-
-superUser
+// let superUser = Object.assign({}, user1, user2, user3, {age: 24})
 
 // -------------------------------------------------
 
 // ===>>> What about now?
 
-let superUser2 = Object.assign({}, {age: 24}, user1, user2, user3)
-
-superUser2
+// let superUser2 = Object.assign({}, {age: 24}, user1, user2, user3)
 
 // -------------------------------------------------
-
-
-function thing(obj) {
-  var trueCopy = Object.assign({dog: 'the best'}, obj)
-  trueCopy.name = 'Bob ross'
-  console.log(trueCopy)
-}
-
-var person = {name: 'richard simmons', age: 90};
-
-thing(person)
-
-console.log(person)

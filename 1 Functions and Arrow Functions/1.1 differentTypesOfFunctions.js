@@ -1,25 +1,13 @@
-function example1 (info) {
-  return info
-}
+// Create a function deceleration
 
-console.log(example1('one'))
 
-//anoyoumus
+// Create an anonymous function
 
-var example2 = function (info) {
-  return info
-}
 
-console.log(example2('hello'))
+// Create an arrow function
 
-var example3 = (info, info2) => {return info}
 
-console.log(example3('arrow function'))
+// Simplify it
 
-var example4 = info => {return info}
 
-console.log(example4('bob ross'))
-
-var example5 = info => info
-
-console.log(example5('tim allen'))
+// Simplify it even further

@@ -1,36 +1,12 @@
 let answers = ['yes', 'no', 'no', 'yes', 'no']
 
-function answerSwapper(answer) {
-  if(answer === 'yes') {
-    return 'no'
-  } else {
-    return 'yes'
-  }
-}
+// answer swap function (build a function that just swaps yes and no)
 
-function maybeizer(answer) {
-  if(answer === 'yes') {
-    return 'maybe'
-  } else {
-    return 'no'
-  }
-}
 
-function map(cb) {
-  var newArray = []
+// build a function that turns yes into maybe.
 
-  for(var i = 0; i < answers.length; i++) {
-    newArray.push(cb(answers[i]))
-  }
 
-  return newArray
-}
+// First build a loop to go over the array and do just that.
+// then functionize it.
 
-var swapped = map(answerSwapper);
-
-swapped //?
-
-var maybes = map(maybeizer)
-
-maybes //?
 

@@ -2,6 +2,7 @@
 
 // -------------------------------------------------
 
+
 // ===>>> Add a method that takes in a number parameter and changes the user's income to the value of the number parameter.
 
 // -------------------------------------------------

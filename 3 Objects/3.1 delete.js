@@ -7,8 +7,6 @@ let deleteBadSpelling = {
 
 // -------------------------------------------------
 
-delete deleteBadSpelling.topic
-
-deleteBadSpelling
-
 // ===>>> Console log the object you just deleted from, was just the value deleted? Or did it delete the key value pair?
+
+// -------------------------------------------------
