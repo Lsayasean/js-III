@@ -72,7 +72,6 @@ arrow functions 1.1 - 1.5, 1.7
 
 - Chain all 3 to the same array
 
-
 ## Objects
 
 ### Delete

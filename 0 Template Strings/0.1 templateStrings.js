@@ -12,3 +12,21 @@ let madlib = exclaim + " he said " + adverb +  "as he jumped into his convertibl
 
 madlib //?
 
+
+function bestEver(guy) {
+  if(guy === 'Bob Ross') {
+    return true
+  } else {
+    return false
+  }
+}
+
+var info = bestEver
+
+function (guy) {
+  if(guy === 'Bob Ross') {
+    return true
+  } else {
+    return false
+  }
+}

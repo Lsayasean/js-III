@@ -37,7 +37,3 @@ let yessa = {
 // ===>>> Now write a function that will destructure the name and favoritePhrase from an object passed in. When complete, invoke the function and pass in the object yessa.
 
 // -------------------------------------------------
-
-// ===>>> With that same function you just wrote, destructure the name and favoritePhrase as parameters and return the parameters.
-
-// -------------------------------------------------
