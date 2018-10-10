@@ -102,6 +102,7 @@ arrow functions 1.1 - 1.5, 1.7
 - destructuring arguments
 
 #### Mini Project Questions
+
 1.1, 1.2, 1.5, 1.6, 1.7
 
 ## Double For Loop
